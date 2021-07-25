@@ -14,7 +14,7 @@ with sqlite3.connect("db.sqlite3") as conn:
     conn.commit()
 
 
-# Retrieve from Database
+# Retrieve from Database(SQLiteDB)
 with sqlite3.connect("db.sqlite3") as conn:
     command = "SELECT * from Movies"
     cursor = conn.execute(command)
