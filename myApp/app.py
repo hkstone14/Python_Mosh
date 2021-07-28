@@ -2,6 +2,8 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import smtplib
 
+
+#email module
 message = MIMEMultipart()
 message["from"] = "Harikrushna Patel"
 message["to"] = "abc123@gmail.com"
